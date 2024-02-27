@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "masterthesis-poetry-project"
+version = "0.1.0"
+description = ""
+authors = ["i-partalas <partalas.ioan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+pydantic = "^2.6.3"
+langdetect = "^1.0.9"
+pymupdf = "^1.23.25"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
