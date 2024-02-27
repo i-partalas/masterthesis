@@ -7,6 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+requests = "^2.31.0"
+pydantic = "^2.6.3"
+fitz = "^0.0.1.dev2"
+langdetect = "^1.0.9"
 
 
 [build-system]
